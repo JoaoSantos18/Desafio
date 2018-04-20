@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+	display: flex;
+	top: 0;
+	justify-content: flex-start;
+}
+
+li{
+	margin: 10px;
+}
+
+.introdução{
+	display: flex;
+	text-align: center;
+}
+
+h1{
+	display: flex;
+	text-align: center;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+}
+
+body{
+	background-image: url(./assets/images/homebg.jpg);
+	background-repeat: no-repeat;
+	height: 800px; 
+	width: 1440px;
+
+}
